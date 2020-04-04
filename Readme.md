@@ -196,7 +196,7 @@ Lists all openvr devices.
 buttonevent [press|pressandhold|unpress|touch|touchandhold|untouch] <openvrId> <buttonId> [<pressTime>]
 ```
 
-Emulates a button event on the given device. See [openvr.h](https://github.com/ValveSoftware/openvr/blob/master/headers/openvr.h#L600-L626) for available button ids.
+Emulates a button event on the given device. See [openvr.h](https://github.com/ValveSoftware/openvr/blob/master/headers/openvr.h#L911-L941) for available button ids.
 
 ### axisevent
 
@@ -226,7 +226,7 @@ Scans the given device for all available device properties.
 getdeviceproperty <openvrId> <property> [int32|uint64|float|bool|string]
 ```
 
-Returns the given device property. See [openvr.h](https://github.com/ValveSoftware/openvr/blob/master/headers/openvr.h#L235-L363) for valid property ids.
+Returns the given device property. See [openvr.h](https://github.com/ValveSoftware/openvr/blob/master/headers/openvr.h#L308-L533) for valid property ids.
 
 ### listvirtual
 
@@ -254,7 +254,7 @@ Tells OpenVR that there is a new device. Before this command is called all devic
 setdeviceproperty <virtualId> <property> [int32|uint64|float|bool|string] <value>
 ```
 
-Sets the given device property. See [openvr.h](https://github.com/ValveSoftware/openvr/blob/master/headers/openvr.h#L235-L363) for valid property ids.
+Sets the given device property. See [openvr.h](https://github.com/ValveSoftware/openvr/blob/master/headers/openvr.h#L308-L533) for valid property ids.
 
 ### removedeviceproperty
 
@@ -262,7 +262,7 @@ Sets the given device property. See [openvr.h](https://github.com/ValveSoftware/
 removedeviceproperty <virtualId> <property>
 ```
 
-Removes the given device property. See [openvr.h](https://github.com/ValveSoftware/openvr/blob/master/headers/openvr.h#L235-L363) for valid property ids.
+Removes the given device property. See [openvr.h](https://github.com/ValveSoftware/openvr/blob/master/headers/openvr.h#L308-L533) for valid property ids.
 
 ### setdeviceconnection
 
